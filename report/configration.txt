@@ -1,0 +1,17 @@
+
+## 20190928
+Processingとkinectの接続に挑戦
+→失敗
++ (Init) Initialize sensor failed 0. PKinect 1.2.0 by Bryan Chung というエラーメッセージが出る。
++ Processingを2.2.1にしてみる→変化なし。
++ デバイスマネージャーでkinectは認識されている。
+
+参考サイト
+https://kkblab.com/make/processing/kinect.html
+
++ Kinect SDK v1.8
+
++ Processing3.5.3
+	+ Kinect4WinSDK
+
++ Windows 10
