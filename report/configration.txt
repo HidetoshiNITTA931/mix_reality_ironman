@@ -15,3 +15,22 @@ https://kkblab.com/make/processing/kinect.html
 	+ Kinect4WinSDK
 
 + Windows 10
+
+## 20190929
+Processingとkinectの接続に挑戦
+→成功
+kinectv2はkinectSDKv2.0で動かすものだった
+
+サンプルコードskeltonColor, SkeltonMaskDepthなどでやりたいことができそう。
+
+参考サイト
+https://www.autumn-color.com/archives/983
+
++ Kinect SDK v2.0
+
++ Processing3.5.3
+	+ KinectPV2
+
++ Windows 10
+
+
