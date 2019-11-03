@@ -42,7 +42,7 @@ void draw() {
       fill(col);
       stroke(col);
       drawBody(joints);
-      
+
       // 腕をプロット
       pushMatrix();
       translate(joints[KinectPV2.JointType_ElbowRight].getX(), 
@@ -57,16 +57,16 @@ void draw() {
       difY = -difY;
       difZ = -difZ;
       println(difX, difY, difZ);
-      
+
       // 座標軸をProcessingように変換
       float rr = sqrt(difX*difX + difY*difY + difZ*difZ);
       float sita = acos(difZ/rr);
       float fai = acos(difX/sqrt(difX*difX + difY*difY));
-      
+
       // 極座標で回転
-      if (difY > 0){
+      if (difY > 0) {
         rotateZ(fai);
-      }else{
+      } else {
         rotateZ(-fai);
       }
       rotateY(sita);
@@ -78,7 +78,7 @@ void draw() {
       line(0, 0, 0, 0, 100, 0);
       stroke(0, 0, 255);
       line(0, 0, 0, 0, 0, 100);
-      scale(2);
+      scale(2.5);
       shape(s, 0, 0);
       popMatrix();
     }
